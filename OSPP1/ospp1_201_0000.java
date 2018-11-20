@@ -1,13 +1,25 @@
 /*
 Example call cmd line
-    Compiling cmd line : javac AA.java
-    Execution cmd line : java AA before.csv result.txt
+    Compiling cmd line : javac ospp1_201_0000.java
+    Execution cmd line : java ospp1_201_0000 testdata.csv result1_201_0000.txt
 
     @2018-11-19, in AA class, cau MI lab, 2018.
 */
 import java.io.*;
 
-public class AA{
+public class ospp1_201_0000{
+    public static void main(String[] args){
+        // Assume call cmd: java AA [InputFilePath] [OutputFilePath]
+        File inputFile = new File(args[0]);
+        File outputFile = new File(args[1]);
+
+        // File Reading
+        int [] result = fileLoader(inputFile);
+
+*/
+import java.io.*;
+
+public class ospp1_201_0000{
     public static void main(String[] args){
         // Assume call cmd: java AA [InputFilePath] [OutputFilePath]
         File inputFile = new File(args[0]);
