@@ -7,6 +7,8 @@ Example call cmd line
 */
 import java.io.*;
 
+// cau.alg.ospp@gmail.com
+
 // Change your filename and classname to ospp1_[Your Student Number]
 public class ospp1_201_0000{
     public static void main(String[] args){
