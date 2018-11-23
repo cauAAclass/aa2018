@@ -22,7 +22,7 @@ public class ospp1_201_0000{
         // There is a example code.
         // You can write your algorithm in this block
         for(int i=0;i<result.length;i++){
-            for(int j=i+1;j<result.length;j++){
+            for(int j=0;j<result.length-i;j++){
                 if(result[j] < result[i]){
                     int temp = result[i];
                     result[i] = result[j];
