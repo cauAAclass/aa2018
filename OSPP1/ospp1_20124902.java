@@ -10,7 +10,9 @@ import java.io.*;
 // cau.alg.ospp@gmail.com
 
 // Change your filename and classname to ospp1_[Your Student Number]
-public class ospp1_201_0000{
+// ___________________________________________________________________
+public class ospp1_20124902{  // CHANGE the class name to YOUR STUDENT NUMBER!!
+// ___________________________________________________________________
     public static void main(String[] args){
         // Assume call cmd: java AA [InputFilePath] [OutputFilePath]
         File inputFile = new File(args[0]);
@@ -21,12 +23,10 @@ public class ospp1_201_0000{
 
         // There is a example code.
         // You can write your algorithm in this block
-        for(int i=0;i<result.length;i++){
-            for(int j=i+1;j<result.length;j++){
-                if(result[j] < result[i]){
-                    int temp = result[i];
-                    result[i] = result[j];
-                    result[j] = temp;
+        for(int times=0;times<result.length;times++){
+            for(int i=0; i<result.length-1 -times; i++){
+                if(result[i] > result[i+1]){
+                    swap(result, i, i+1);
                 }
             }
         }
@@ -34,6 +34,13 @@ public class ospp1_201_0000{
         // File Writing
         resultWriter(result, outputFile);
         return;
+    }
+
+
+    public static void swap(int[] Arr, int index1, int index2){
+        int temp = Arr[index1];
+        Arr[index1] = Arr[index2];
+        Arr[index2] = temp;
     }
 
     public static int [] fileLoader(File iFile){
