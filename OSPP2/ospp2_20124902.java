@@ -1,7 +1,7 @@
 /*
 Example call cmd line
-    Compiling cmd line : javac ospp1_201_0000.java
-    Execution cmd line : java ospp1_201_0000 testdata.csv result.txt
+    Compiling cmd line : javac ospp2_201_0000.java
+    Execution cmd line : java ospp2_201_0000 testdata.csv result.txt
 
     @2018-11-19, in AA class, cau MI lab, 2018.
 */
@@ -9,7 +9,7 @@ import java.io.*;
 
 // cau.alg.ospp@gmail.com
 
-// Change your filename and classname to ospp1_[Your Student Number]
+// Change your filename and classname to ospp2_[Your Student Number]
 // ___________________________________________________________________
 public class ospp2_20124902{  // CHANGE the class name to YOUR STUDENT NUMBER!!
 // ___________________________________________________________________
@@ -20,7 +20,7 @@ public class ospp2_20124902{  // CHANGE the class name to YOUR STUDENT NUMBER!!
         // File Reading
         int[] input = fileLoader(inputFile);
 
-        // Reference : My STONE Head. I love myself. GOOD.
+        // Reference : My STONE Head. I love myself. Sincerely.
         int[] result;
         result = quicksort(input);
 
