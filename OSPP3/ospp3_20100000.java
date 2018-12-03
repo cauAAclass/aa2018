@@ -21,7 +21,7 @@ public class ospp3_20100000{  // CHANGE the class name to YOUR STUDENT NUMBER!!
         // File Reading
         int[][] input = fileLoader_3(inputFile);
 
-        // input[0][k] <- the prize of k-th object
+        // input[0][k] <- the value of k-th object
         // input[1][k] <- the weight of k-th object
         for(int i=0;i<input.length;i++){
             for(int j=0;j<input[i].length;j++){
