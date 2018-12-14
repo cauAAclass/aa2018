@@ -1,10 +1,4 @@
 *.class
-*.txt
-TestFile.csv
-TestFile1.csv
-TestFile2.csv
-TestFile3.csv
-TestFile4.csv
 ospp3_20124902.java
 ospp4_20124902.java
 randomMaker.py
